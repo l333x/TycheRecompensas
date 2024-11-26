@@ -9,14 +9,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     const actividadesUniversitarias = Array.from({ length: 30 }, (_, i) => ({
-        nombre: `Universitaria ${i + 1}`,
+        nombre: `Actividad Academica ${i + 1}`,
         descripcion: `Descripción de la actividad Universitaria ${i + 1}.`,
         puntos: Math.floor(Math.random() * 100) + 1,
         estado: "pendiente",
     }));
 
     const actividadesExtracurriculares = Array.from({ length: 30 }, (_, i) => ({
-        nombre: `Extracurricular ${i + 1}`,
+        nombre: `Actividad Extracurricular ${i + 1}`,
         descripcion: `Descripción de la actividad Extracurricular ${i + 1}.`,
         puntos: Math.floor(Math.random() * 100) + 1,
         estado: "pendiente",
