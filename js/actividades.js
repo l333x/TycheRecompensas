@@ -4,6 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const btnAceptarActividad = document.getElementById("btnAceptarActividad");
     const inputEvidencia = document.getElementById("inputEvidencia");
     const btnVerMisPuntos = document.getElementById("btnVerMisPuntos");
+    const btnUniversitarias = document.getElementById("actividadesUniversitarias");
+    const btnExtracurriculares = document.getElementById("actividadesExtracurriculares");
+
 
     const actividadesUniversitarias = Array.from({ length: 30 }, (_, i) => ({
         nombre: `Universitaria ${i + 1}`,
